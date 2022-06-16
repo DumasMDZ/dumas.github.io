@@ -6,7 +6,7 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
 
   author: {
-    name: "Mr.Hope",
+    name: "Mr.Dumas",
     url: "https://mrhope.site",
   },
 
@@ -68,7 +68,7 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/guide/encrypt.html": ["1234"],
+      "/guide/encrypt.html": ["123456"],
     },
   },
 
