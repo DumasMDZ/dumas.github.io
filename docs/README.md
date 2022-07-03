@@ -6,7 +6,7 @@ title: 博客主页
 heroImage: /logo.svg
 heroText: Dumas's Blog
 heroFullScreen: true
-tagline: To Be Stronger, To Be Better.
+tagline: 个人博客项目构建中
 projects:
   - icon: project
     name: 项目名称
