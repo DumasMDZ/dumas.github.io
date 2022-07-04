@@ -3,7 +3,7 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   "/home",
-  { text: "使用指南", icon: "creative", link: "/guide/" },
+  // { text: "博客指南", icon: "creative", link: "/guide/" },
   {
     text: "Java",
     prefix: "/md/java/",
@@ -45,6 +45,47 @@ export default navbar([
       prefix: "nosql/",
       children: ["db-nosql-redis-overview", "db-nosql-mongodb-overview", "db-nosql-elasticsearch-overview"]
     }],
+  },
+  {
+    text: "Spring",
+    prefix: "/md/spring/",
+    children: [{
+      text: "Spring Framework",
+      prefix: "spring-framework/",
+      children: ["spring-framework-overview", "spring-framework-introduce", "spring-framework-ioc", "spring-framework-aop", "spring-framework-mvc"]
+    }, {
+      text: "SpringCloud",
+      prefix: "spring-cloud/",
+      children: ["spring-cloud-overview", "spring-cloud-netflix-overview", "spring-cloud-alibaba-overview", "spring-cloud-tencent-overview"]
+    }, {
+      text: "SpringBoot 系列",
+      prefix: "spring-boot/",
+      children: ["spring-boot-overview", "spring-boot-guide", "spring-boot-interface-resp", "spring-boot-mysql"]
+    }]
+  }, {
+    text: "框架｜中间件",
+    prefix: "/md/framework/",
+    children: [{
+      text: "ORM 框架",
+      prefix: "orm/",
+      children: ["framework-orm-mybatis-overview"]
+    }, {
+      text: "MQ 消息队列",
+      prefix: "mq/",
+      children: ["framework-mq-rocketmq-overview", "framework-mq-rabbitmq-overview", "framework-mq-kafka-overview"]
+    }, {
+      text: "RPC 中间件",
+      prefix: "rpc/",
+      children: ["framework-rpc-dubbo-overview", "framework-rpc-grpc-overview"]
+    }, {
+      text: "Netty",
+      prefix: "netty/",
+      children: ["framework-netty-overview"]
+    }, {
+      text: "分库分表框架",
+      prefix: "ds-sharding/",
+      children: ["framework-ds-sharding-sphere-overview"]
+    }]
   },
   {
     text: "主题文档",

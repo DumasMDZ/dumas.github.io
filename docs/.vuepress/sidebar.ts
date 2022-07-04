@@ -12,7 +12,6 @@ export default sidebar({
       link: "/guide/",
       children: "structure",
     },
-
   ],
   "/md/java": [
     {
@@ -55,7 +54,7 @@ export default sidebar({
       ],
     }
   ],
-  "/md/db":[
+  "/md/db": [
     {
       text: "数据库基础和原理",
       prefix: "sql/",
@@ -63,13 +62,13 @@ export default sidebar({
         "db-sql-theory",
         "db-sql-lan",
       ],
-    },{
+    }, {
       text: "SQL 数据库",
       prefix: "sql-mysql/",
       children: [
         "db-sql-mysql-overview",
       ],
-    },{
+    }, {
       text: "NoSQL 数据库",
       prefix: "nosql/",
       children: [
@@ -77,6 +76,44 @@ export default sidebar({
         "db-nosql-mongodb-overview",
         "db-nosql-elasticsearch-overview",
       ],
+    }
+  ],
+  "/md/spring": [
+    {
+      text: "Spring Framework 基础",
+      prefix: "spring-framework/",
+      children: ["spring-framework-overview", "spring-framework-introduce", "spring-framework-ioc", "spring-framework-aop", "spring-framework-mvc"]
+    }, {
+      text: "SpringCloud",
+      prefix: "spring-cloud/",
+      children: ["spring-cloud-overview", "spring-cloud-netflix-overview", "spring-cloud-alibaba-overview", "spring-cloud-tencent-overview"]
+    }, {
+      text: "SpringBoot 系列",
+      prefix: "spring-boot/",
+      children: ["spring-boot-overview", "spring-boot-guide", "spring-boot-interface-resp", "spring-boot-mysql"]
+    }
+  ],
+  "/md/framework": [
+    {
+      text: "ORM 框架",
+      prefix: "orm/",
+      children: ["framework-orm-mybatis-overview"]
+    }, {
+      text: "MQ 消息队列",
+      prefix: "mq/",
+      children: ["framework-mq-rocketmq-overview", "framework-mq-rabbitmq-overview", "framework-mq-kafka-overview"]
+    }, {
+      text: "RPC 中间件",
+      prefix: "rpc/",
+      children: ["framework-rpc-dubbo-overview", "framework-rpc-grpc-overview"]
+    }, {
+      text: "Netty",
+      prefix: "netty/",
+      children: ["framework-netty-overview"]
+    }, {
+      text: "分库分表框架",
+      prefix: "ds-sharding",
+      children: ["framework-ds-sharding-sphere-overview"]
     }
   ]
 });
