@@ -2,9 +2,9 @@
 home: true
 layout: Blog
 icon: home
-title: 博客主页
+title: 主页
 heroImage: /logo.svg
-heroText: Dumas's Blog
+heroText: Dumas's 知识博客
 heroFullScreen: true
 tagline: 个人博客项目构建中
 projects:
