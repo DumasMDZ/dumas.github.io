@@ -1,10 +1,10 @@
 ---
 home: true
 icon: home
-title: 项目主页
+title: 知识库
 heroImage: /logo.svg
-heroText: 项目名称
-tagline: 你可以在这里放置或是整个项目的描述。
+heroText: 个人知识库
+tagline: 「个人知识库知识总结」
 actions:
   - text: 使用指南 💡
     link: /guide/

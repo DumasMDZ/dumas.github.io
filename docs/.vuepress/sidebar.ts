@@ -11,7 +11,7 @@ export default sidebar({
       prefix: "/guide/",
       link: "/guide/",
       children: "structure",
-    },
+    }
   ],
   "/md/java": [
     {
@@ -130,6 +130,24 @@ export default sidebar({
       prefix: "ds-sharding/",
       collapsable: true,
       children: ["framework-ds-sharding-sphere-overview"]
+    }
+  ],
+  "/md/arch": [
+    {
+      text: "架构基础和知识点",
+      prefix: "basis/",
+      collapsable: true,
+      children: ["arch-basis-overview"]
+    }, {
+      text: "分布式系统",
+      prefix: "distributed/",
+      collapsable: true,
+      children: ["arch-distributed-overview"]
+    }, {
+      text: "微服务系统",
+      prefix: "microservice/",
+      collapsable: true,
+      children: ["arch-microservice-overview"]
     }
   ]
 });

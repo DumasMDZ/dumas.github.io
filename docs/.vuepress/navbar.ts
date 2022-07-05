@@ -2,8 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/home",
-  // { text: "博客指南", icon: "creative", link: "/guide/" },
+  // "/home",
   {
     text: "Java",
     prefix: "/md/java/",
@@ -85,6 +84,23 @@ export default navbar([
       text: "分库分表框架",
       prefix: "ds-sharding/",
       children: ["framework-ds-sharding-sphere-overview"]
+    }]
+  },
+  {
+    text:"架构",
+    prefix:"/md/arch/",
+    children:[{
+      text: "架构基础和技术点",
+      prefix: "basis/",
+      children: ["arch-basis-overview"]
+    },{
+      text: "分布式系统",
+      prefix: "distributed/",
+      children: ["arch-distributed-overview"]
+    },{
+      text: "微服务系统",
+      prefix: "microservice/",
+      children: ["arch-microservice-overview"]
     }]
   },
   {

@@ -3,8 +3,8 @@ import theme from "./theme";
 
 export default defineUserConfig({
   lang: "zh-CN",
-  title: "Dumas's Blog",
-  description: "Dumas's 的个人博客",
+  title: "Dumas's Lib",
+  description: "Dumas's 的个人知识库",
 
   base: "/",
 
